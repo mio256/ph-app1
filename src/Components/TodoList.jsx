@@ -18,7 +18,8 @@ const TodoList = () => {
             setTodos([
                 ...todos,
                 {
-                    content: inputText
+                    content: inputText,
+                    detail: "",
                 }
             ])
         }
